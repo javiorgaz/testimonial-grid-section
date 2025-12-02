@@ -24,7 +24,7 @@ The designs were created to the following widths:
 - Grey 200: hsl(0, 0%, 81%)
 - Grey 400: #676d7eff
 - Grey 500: #48556aff
-- Dark blue: hsl(219, 29%, 14%)
+- Dark blue: #19212eff
 - Black: hsl(0, 0%, 7%)
 
 ## Typography
