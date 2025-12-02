@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: #e7eaeeff;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 1200px;
+    border: 1px solid red;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    gap: 1.3rem;
+}
+
+.card {
+    padding: 25px 20px;
+    border-radius: 9px;
+}
+
+.card--1 {
+    background-color: lightblue;
+    grid-column: span 2;
+    color: white;
+    background-color: #7541c8ff;
+}
+.card--2 {
+    background-color: lightcoral;
+    grid-column: span 1;
+    background-color: #48556aff;
+    color: white;
+}
+.card--3 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+    color: #48556aff;
+    background-color: white;
+}
+.card--4 {
+    background-color: lightgreen;
+    grid-column: span 1;
+}
+.card--5 {
+    background-color: lightpink;
+    grid-column: span 2;
+    /* align-self: start; */
+}
+
+/* HEADER */
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.header-name-graduate {
+    margin-left: 0.5rem;
+}
+
+.header-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.header-name {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.header-graduate {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+/* ASUNTO */
+
+.card-asunto {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 0.8rem;
+    font-weight: 400;
+}

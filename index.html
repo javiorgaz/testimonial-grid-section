@@ -1,75 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="card card--1">
+                <div class="card-header">
+                    <img
+                        class="header-img"
+                        src="images/image-daniel.jpg"
+                        alt=""
+                    />
+                    <div class="header-name-graduate">
+                        <h2 class="header-name">Daniel Clifford</h2>
+                        <p class="header-graduate">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="card-asunto">
+                    I received a job offer mid-coursem and the subjects I
+                    learned were current, if not more so, in the complany I
+                    joined. I honestle feel I got every penny's worth.
+                </div>
+                <div class="card-text">
+                    "I was an EMT for many years before I joined the bootcamp.
+                    I've beed looking to make a transition and have heard some
+                    people who had an amazing experience here. I signed up for
+                    the free intro course and found it incredibly fun! I
+                    enrolled shortly thereafter. The next 12 weeks was the best
+                    - and most grueling - time of my life. Since completing the
+                    course. I've successfully switched careers, ,working as a
+                    Software Enginner at a VR startup."
+                </div>
+            </div>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+            <div class="card card--2">
+                <div class="card-header">
+                    <img
+                        class="header-img"
+                        src="images/image-jonathan.jpg"
+                        alt=""
+                    />
+                    <div class="header-name-graduate">
+                        <h2 class="header-name">Jonathan Walters</h2>
+                        <p class="header-graduate">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="card-asunto">
+                    The team was very supportive and kept me motivated
+                </div>
+                <div class="card-text">
+                    "I started as a total newbie with no coding skills.I now
+                    work as a mobile enginner for a big company. This was one of
+                    the best investmen I've made in myself"
+                </div>
+            </div>
 
-        html, body {
-            /* height: 100vh; */
-        }
+            <div class="card card--3">
+                <div class="card-header">
+                    <img
+                        class="header-img"
+                        src="images/image-kira.jpg"
+                        alt=""
+                    />
+                    <div class="header-name-graduate">
+                        <h2 class="header-name">Kira Whittle</h2>
+                        <p class="header-graduate">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="card-asunto">
+                    Such a life-changing experience. Highly recommended!
+                </div>
+                <div class="card-text">
+                    "Before joining the bootcamp, I've never wirtten a line of
+                    code. I needed some structure from professionals who can
+                    help me learn programming step by step. I was encouraged to
+                    enroll by a former student of theirs whocan only sy
+                    wonderful things about the program. The entire curriculum
+                    and staff did not disappoint. They wre very hands-on and I
+                    never had to wait long for assistance. The agile team
+                    project, in particular, was outstanding. It took my learning
+                    to hte next level in a way that no tutorial could ever have.
+                    In fact, I've often referrred to it, during interviews as an
+                    example of my development experience. It certainly helped me
+                    land a job as a full-stack developer after receiving
+                    multiple offer. 100% recommend!"
+                </div>
+            </div>
 
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+            <div class="card card--4">
+                <div class="card-header">
+                    <img
+                        class="header-img"
+                        src="images/image-jeanette.jpg"
+                        alt=""
+                    />
+                    <div class="header-name-graduate">
+                        <h2 class="header-name">Jeanette Harmon</h2>
+                        <p class="header-graduate">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="card-asunto">
+                    An overall wonderful and rewarding experience
+                </div>
+                <div class="card-text">
+                    "Thank you for the wonderful experience! I now have a job i
+                    really enjoy, and make a good living while doing something I
+                    love."
+                </div>
+            </div>
 
-        .grid-container {
-            display: grid;
-            max-width: 1200px;
-            padding: 0 60px;
-            border: 1px solid red;
-            grid-template-columns: repeat(4, minmax(200px, 1fr));
-            grid-auto-rows: auto;
-            gap: 2rem;
-        }
-
-        .card {
-            padding: 2rem;
-            min-height: ;
-        }
-
-        .card--1 {
-            background-color: lightblue;
-            grid-column: span 2;
-        }
-        .card--2 {
-            background-color: lightcoral;
-            grid-column: span 1;
-        }
-        .card--3 {
-            background-color: lightgray;
-            grid-column: 4 / 5;
-            grid-row: 1 / 3;
-        }
-        .card--4 {
-            background-color: lightgreen;
-            min-height: 500px;
-            grid-column: span 2;
-        }
-        .card--5 {
-            background-color: lightpink;
-            grid-column: span 1;
-            align-self: start;
-        }
-
-    </style>
-</head>
-<body>
-    <div class="grid-container">
-        <div class="card card--1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eligendi consequuntur sed consectetur labore dicta possimus assumenda fuga ab nihil!</div>
-        <div class="card card--2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit ratione doloribus rem facilis perspiciatis, saepe eum corrupti voluptas placeat. Minima!</div>
-        <div class="card card--3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione pariatur magnam veritatis suscipit at enim assumenda corrupti quae blanditiis odio!</div>
-        <div class="card card--4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis saepe voluptatum hic ipsa deleniti, natus inventore rem asperiores perspiciatis cumque?</div>
-        <div class="card card--5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti temporibus vero eius sapiente, possimus doloremque iure quidem neque dolore voluptas.</div>
-    </div>
-</body>
+            <div class="card card--5">
+                <div class="card-header">
+                    <img
+                        class="header-img"
+                        src="images/image-patrick.jpg"
+                        alt=""
+                    />
+                    <div class="header-name-graduate">
+                        <h2 class="header-name">Patrick Abrams</h2>
+                        <p class="header-graduate">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="card-asunto">
+                    Awesome teaching support from TAs who did the bootcamp
+                    themselver. Getting guidance from them and learning from
+                    their experiences was easy.
+                </div>
+                <div class="card-text">
+                    "The staff seem genuinely concerned about my progress which
+                    I find really refreshing. The program gave me the confidence
+                    necessary to be able to go out in the world and present
+                    myself as a capable juniot developer. The standard is above
+                    the rest. You will get the personal attention you need from
+                    an incredible community of smart and amazing people."
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

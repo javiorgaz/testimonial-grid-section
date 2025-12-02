@@ -15,15 +15,15 @@ The designs were created to the following widths:
 
 - Purple 50: hsl(260, 100%, 95%)
 - Purple 300: hsl(264, 82%, 80%)
-- Purple 500: hsl(263, 55%, 52%)
+- Purple 500: #7541c8ff
 
 ### Neutral
 
 - White: hsl(0, 0%, 100%)
-- Grey 100: hsl(214, 17%, 92%)
+- Grey 100: #e7eaeeff
 - Grey 200: hsl(0, 0%, 81%)
-- Grey 400: hsl(224, 10%, 45%)
-- Grey 500: hsl(217, 19%, 35%)
+- Grey 400: #676d7eff
+- Grey 500: #48556aff
 - Dark blue: hsl(219, 29%, 14%)
 - Black: hsl(0, 0%, 7%)
 
